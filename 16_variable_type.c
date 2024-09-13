@@ -13,6 +13,7 @@ void main()
    printf("a = %d\n",a);
    printf("g = %d\n",g);
    fun();
+ 
 }
 
 
