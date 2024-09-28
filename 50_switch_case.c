@@ -5,7 +5,7 @@ void main()
 {
  int num;
  printf("enter a num : ");
- scanf("%d",&num);// 1
+ scanf("%d",&num);//8
  switch(num)
  {
    case 1:printf("monday");break;

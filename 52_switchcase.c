@@ -4,7 +4,7 @@ void main()
 {
     char ch;
     printf("enter frist later of name : ");
-    scanf("%c", &ch);
+    scanf("%c", &ch);//t
     switch(ch)
     {
         case 'm': printf("mohan");break;
