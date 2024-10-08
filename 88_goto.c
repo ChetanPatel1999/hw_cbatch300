@@ -8,8 +8,6 @@ void main()
     if (age >= 18)
     {
         printf("welcome my clube...\n");
-        do
-        {
             menu:
             printf("1. pasta = 120\n");
             printf("2. noodles = 100\n");
@@ -37,7 +35,10 @@ void main()
             printf("your totle bill : %d\n",sum);
             printf("you want to order more item so press 1 otherwise 0 : ");
             scanf("%d",&num);
-        } while (num==1);
+        if(num==1)
+        {
+            goto menu;
+        }
         printf("please pay total bill %d rs \n",sum);
         printf("please visit againn....");
     }
