@@ -1,5 +1,20 @@
 // fuction with no return type,but with argument
 #include <stdio.h>
+void add(int,int);
+void cube(int);
+void range(int,int);
+void main()
+{
+    add(12, 8);
+    int x, y;
+    x = 10;
+    y = 9;
+    add(x, y);
+    cube(3);
+    int i;
+    range(5, 10);
+    range(1,5);
+}
 void add(int a, int b)
 {
     int c;
@@ -19,16 +34,4 @@ void range(int s, int e)
     {
         cube(i);
     }
-}
-void main()
-{
-    add(12, 8);
-    int x, y;
-    x = 10;
-    y = 9;
-    add(x, y);
-    cube(3);
-    int i;
-    range(5, 10);
-    range(1,5);
 }
