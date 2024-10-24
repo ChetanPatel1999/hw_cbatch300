@@ -19,18 +19,18 @@ int is_prime(int num)
         return 1;
     }
 }
-void range(int s,int e)
+void range(int s, int e)
 {
     int i;
-    for(i=s;i<e;i++)
+    for (i = s; i < e; i++)
     {
-        if(is_prime(i))
+        if (is_prime(i))
         {
-            printf("%d ",i);
+            printf("%d ", i);
         }
     }
 }
 void main()
 {
-  range(1,100);
+    range(1, 100);
 }
