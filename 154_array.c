@@ -1,4 +1,4 @@
-// wap to take array element from user display them anmd display sum of all element.
+// wap to take array element from user display them and display sum of all element.
 #include <stdio.h>
 void main()
 {
@@ -18,10 +18,11 @@ void main()
     }
 
     //sum of all elemet 
+    // 12 5 6 3 2
     int sum=0;
     for(i=0;i<n;i++)
     {
-        sum=sum+arr[i];
+        sum=sum+arr[i];//28
     }
     printf("\nsum of all elemet = %d",sum);
 }

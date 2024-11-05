@@ -2,12 +2,10 @@
 #include<stdio.h>
 void main()
 {
- int a[]={12,34,56,78,90};
- printf("array size in byte : %d\n",sizeof(a));
- printf("array element are : \n");
- printf("%d\n",a[0]);
- printf("%d\n",a[1]);
- printf("%d\n",a[2]);
- printf("%d\n",a[3]);
- printf("%d\n",a[4]);
+ int arr[]={12,34,56,78,90};
+ printf("%d\n",arr[0]);
+ printf("%d\n",arr[1]);
+ printf("%d\n",arr[2]);
+ printf("%d\n",arr[3]);
+ printf("%d\n",arr[4]);
 }
