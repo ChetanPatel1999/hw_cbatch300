@@ -23,7 +23,7 @@ void main()
     {
         for (j = 0; j < c; j++)
         {
-            printf("%d ",mat[i][j]);
+            printf("%d     ",mat[i][j]);
         }
         printf("\n");
     }

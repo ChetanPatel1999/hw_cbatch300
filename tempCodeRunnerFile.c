@@ -1,14 +1,9 @@
-// nested for loop
-#include <stdio.h>
-void main()
-{
-    int i, j;
-    for (i = 65; i <= 69; i++)//2
+   printf("sum matrix element are : \n");
+    for (i = 0; i < r; i++)
     {
-        for (j = 65; j <= 69; j++)
+        for (j = 0; j < c; j++)
         {
-            printf("%c ",i);
+            printf("%d ", summat[i][j]);
         }
         printf("\n");
     }
-}

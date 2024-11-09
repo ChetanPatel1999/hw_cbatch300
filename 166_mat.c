@@ -2,7 +2,7 @@
 #include <stdio.h>
 void main()
 {
-    // r  c
+          // r  c
     int mat[3][3] = {{12, 34, 56}, {11, 22, 33}, {55, 66, 77}};
     int i,j;
     printf("matrix element are : \n");
