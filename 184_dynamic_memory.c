@@ -5,7 +5,7 @@ void main()
 {
     int i, *ptr, *temp,n;
     printf("enter dyanamically array size :");
-    scanf("%d",&n);
+    scanf("%d",&n);//5
     ptr =(int*)malloc(n*sizeof(int));
     temp = ptr;
     printf("enter array element : ");
