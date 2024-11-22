@@ -3,7 +3,7 @@
 #include <string.h>
 struct pen
 {
-    char name[12]; // data member
+    char name[50]; // data member
     int price;
     float rating;
 };
@@ -29,11 +29,12 @@ void main()
     {
         printf("enter pen%d info : \n", i + 1);
         printf("enter pen name : ");
-        scanf("%s", p[i].name);
+        gets(p[i].name);
         printf("enter pen price : ");
         scanf("%d", &p[i].price);
         printf("enter pen rating : ");
         scanf("%f", &p[i].rating);
+        getchar();
     }
 
     for (i = 0; i < 3; i++)
